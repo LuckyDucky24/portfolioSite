@@ -9,17 +9,59 @@
     box-sizing: border-box;
 }
 
+* {
+    font-family: "Pacifico";
+    color: #3F7FBF;
+}
+
+img {
+    width: 100%;
+    padding: 1em;
+    padding-bottom: 1em;
+}
+
+h3 {
+    margin: 0;
+}
+
+.center{
+    text-align: center;
+}
+
 .grid {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
 }
 
-.row {
+.row-1 {
     width: 100%;
     margin-bottom: 20px;
     display: flex;
     height: 150px;
+}
+
+.row-2 {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    height: 420px;
+}
+
+
+.row-3 {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    height: 50px;
+}
+
+.row-4 {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    height: 270px;
+    text-align: center;
 }
 
 .col-1 {
@@ -69,3 +111,6 @@
 .col-12 {
     width: 100%;
 }
+
+
+
