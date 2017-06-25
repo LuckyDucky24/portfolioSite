@@ -1,44 +1,148 @@
-<!DOCTYPE HTML>
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <title>Sean Nam</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-</head>
-<body>
-  <div class="grid">
-    <div class="row-1">
-      <img src="http://placehold.it/75x75" class="col-2">
-      <div class="col-6"></div>  
-      <div class="col-4">
-        <h1>Sean Nam</h1>
-        <p>Awesome Front-End Developer</p>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean Nam's Website</title>
+    <style>@import 'https://fonts.googleapis.com/css?family=Ubuntu';</style>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scriptfiles.js"></script>
+    <script src="https://use.fontawesome.com/4c9da93c6a.js"></script>
+  </head>
+  <body class="container">
+    <div class="row first">
+      <div class="col-md-4">
+        <img src="img/logo-2.jpg" class="logo" alt="logo">
+      </div>
+      <div class="col-md-8">
+        <h1 class="name">Sean Nam</h1>
+        <p class="title">Future Great Programmer</p>
       </div>
     </div>
-    <div class="row-2">
-      <img src="https://placeimg.com/1190/400/animals" class="col-12">
-    </div>
-    <div class="row-3">
-        <h2 class="center col-2">Featured Work</h2>
-    </div>
-    <div class="row-4">
-      <div class="col-4">
-          <div><img src="https://placeimg.com/397/175/tech/grayscale"></div>
-          <h3 class="center">Project Name</h3>
-          <div class="center"><a href="https://www.google.com/">link</a></div>
-      </div>
-      <div class="col-4">
-          <img src="https://placeimg.com/397/175/tech/sepia">
-          <h3 class="center">Project Name</h3>
-          <a href="https://www.google.com/">link</a>
-      </div>
-      <div class="col-4">
-          <div><img src="https://placeimg.com/397/175/tech/sepia"></div>
-          <h3 class="center">Project Name</h3>
-          <div class="center"><a href="https://www.google.com/">link</a></div>
+    <div class="row">
+      <div class="col-lg-12">
+        <img src="img/buildingimage2.jpeg" class="img-responsive mainimage" alt="modern building">
       </div>
     </div>
-  </div>
-</body>
+    <hr class="firsthr">
+    <div class="row">
+      <section class="col-md-6 sections">
+        <h3>Shopping Cart</h3>
+        <img src="img/shoppingcart4.png" width="555px" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project1" alt="t-shirt website">
+        <p class="text-center"><a href="https://github.com/LuckyDucky24/shoppingCart" target="_blank">Link to Project</a></p>
+        <p class="description text-left">A team project that taught me the importance of collaboration and communication.</p>
+      </section>
+      <section class="col-md-6 sections">
+        <h3>Trading Card</h3>
+        <img src="img/tradingcard3.png" width="555px" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project2" alt="king julian trading card">
+        <p class="text-center"><a href="http://github.com">Link to project</a></p>
+        <p class="description text-left">This project was part of my Udacity degree. I added all the CSS and html to an empty card template and designed this card.</p>
+      </section>
+    </div>
+    <div class="row">
+      <section class="col-md-6 sections">
+        <h3>Classic Arcade Game Clone</h3>
+        <img src="img/lakeimage3.jpg" width="555px" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project3" alt="lake in the mountains">
+        <p class="text-center"><a href="http://github.com">Link to project</a></p>
+        <p class="description text-left">Object Oriented Javascript.<br>
+                                HTML5 canvas<br>
+                                Writing readmes</p>
+      </section>
+      <section class="col-md-6 sections">
+        <h3>Neighborhood Map</h3>
+        <img src="img/happyfingers2.jpg" width="555px" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project4" alt="three fingers with smiles drawn on them">
+        <p class="text-center"><a href="http://github.com">Link to project</a></p>
+        <p class="description text-left">AJAX (request APIs)<br>
+                               Javascript design patterns<br>
+                               Google Map APIs</p>
+      </section>
+    </div>
+    <div class="row">
+      <section class="col-md-12 skillssection">
+        <h3>Skills</h3>
+        <ul class="flex">
+          <li class="item">Javascript</li>
+          <li class="item">Grunt</li>
+          <li class="item">Grunt</li>
+          <li class="item">HTML</li>
+          <li class="item">CSS</li>
+          <li class="item">jQuery</li>
+          <li class="item">npm</li>
+          <li class="item">Bootstrap</li>
+        </ul>
+      </section>
+    </div>
+    <div class="row">
+      <div class="col-md-12 aboutmesection">
+        <h3>About Me</h3>
+      </div>
+    </div>
+    <footer>
+    <hr>
+        <div class="text-center center-block">
+              <a href="https://www.linkedin.com/home?trk=nav_responsive_tab_home"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
+              <a href="https://github.com/LuckyDucky24"><i id="social-gh" class="fa fa-github-square fa-3x social"></i></a>
+              <a href="https://plus.google.com/u/0/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+              <a href="mailto:seannam7@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
+    <hr>
+    </footer>
+
+    <!-- Modal (Shopping Cart) -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Mock T-shirt Website</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="img/shoppingcart1.png" width="800" alt="t-shirt website">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal (Trading Card) -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">King Julian Trading Card</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="img/tradingcart.png" width="800" alt="king julian trading card">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal () -->
+    <div class="modal fade" id="project1A" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="http://placehold.it/555x300">
+            This was my  project in this class. I learned a lot about HTML and CSS.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
