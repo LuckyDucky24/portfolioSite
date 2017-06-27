@@ -5,54 +5,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sean Nam's Website</title>
-    <style>@import 'https://fonts.googleapis.com/css?family=Ubuntu';</style>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/scriptfiles.js"></script>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scriptfiles.js"></script>
     <script src="https://use.fontawesome.com/4c9da93c6a.js"></script>
   </head>
   <body class="container">
-    <div class="row first">
+    <header class="row first">
       <div class="col-md-4">
         <img src="img/logo-2.jpg" class="logo" alt="logo">
       </div>
+
       <div class="col-md-8">
         <h1 class="name">Sean Nam</h1>
         <p class="title">Future Great Programmer</p>
       </div>
-    </div>
+    </header>
     <div class="row">
       <div class="col-lg-12">
-        <img src="img/buildingimage2.jpeg" class="img-responsive mainimage" alt="modern building">
+        <img src="img/buildingimage2.jpeg" class="img-responsive img-center mainimage" alt="modern building">
       </div>
     </div>
-    <hr class="firsthr">
+
     <div class="row">
+        <div class="col-sm-12">
+            <hr class="firsthr">
+        </div>
+    </div>
+
+    <main class="row">
       <section class="col-md-6 sections">
         <h3>Shopping Cart</h3>
-        <img src="img/shoppingcart4.png" width="555" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project1" alt="t-shirt website">
+        <img src="img/shoppingcart4.png" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project1" alt="t-shirt website">
         <p class="text-center"><a href="https://github.com/LuckyDucky24/shoppingCart" target="_blank">Link to Project</a></p>
         <p class="description text-left">A team project that taught me the importance of collaboration and communication.</p>
       </section>
+
       <section class="col-md-6 sections">
         <h3>Trading Card</h3>
         <img src="img/tradingcard3.png" width="555" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project2" alt="king julian trading card">
         <p class="text-center"><a href="http://github.com">Link to project</a></p>
         <p class="description text-left">This project was part of my Udacity degree. I added all the CSS and html to an empty card template and designed this card.</p>
       </section>
-    </div>
+    </main>
     <div class="row">
       <section class="col-md-6 sections">
         <h3>Classic Arcade Game Clone</h3>
-        <img src="img/lakeimage3.jpg" width="555" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project3" alt="lake in the mountains">
+        <img src="img/lakeimage3.jpg" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project3" alt="lake in the mountains">
         <p class="text-center"><a href="http://github.com">Link to project</a></p>
         <p class="description text-left">Object Oriented Javascript.<br>
                                 HTML5 canvas<br>
                                 Writing readmes</p>
       </section>
+
       <section class="col-md-6 sections">
         <h3>Neighborhood Map</h3>
         <img src="img/happyfingers2.jpg" width="555" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project4" alt="three fingers with smiles drawn on them">
@@ -82,16 +90,27 @@
         <h3>About Me</h3>
       </div>
     </div>
-    <footer>
-    <hr>
-        <div class="text-center center-block">
-              <a href="https://www.linkedin.com/home?trk=nav_responsive_tab_home"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
-              <a href="https://github.com/LuckyDucky24"><i id="social-gh" class="fa fa-github-square fa-3x social"></i></a>
-              <a href="https://plus.google.com/u/0/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-              <a href="mailto:seannam7@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <hr>
         </div>
-    <hr>
+    </div>
+
+    <footer class="row">
+        <div class="col-sm-12 text-center center-block">
+              <a href="https://www.linkedin.com/home?trk=nav_responsive_tab_home" target="_blank"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
+              <a href="https://github.com/LuckyDucky24" target="_blank"><i id="social-gh" class="fa fa-github-square fa-3x social"></i></a>
+              <a href="https://plus.google.com/u/0/" target="_blank"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+              <a href="mailto:seannam7@gmail.com" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+        </div>
     </footer>
+
+    <div class="row">
+        <div class="col-sm-12">
+            <hr>
+        </div>
+    </div>
 
     <!-- Modal (Shopping Cart) -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
@@ -127,15 +146,33 @@
       </div>
     </div>
 
-    <!-- Modal () -->
-    <div class="modal fade" id="project1A" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+    <!-- Modal (Classic Arcade Game Clone) -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
+            <h4 class="modal-title" id="myModalLabel3">Under Construction</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="http://placehold.it/555x300" alt="blank placeholder">
+            <img class="img-responsive" src="img/lakeimage3.jpg" alt="lake in the mountains">
+            This was my  project in this class. I learned a lot about HTML and CSS.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal (Neighborhood Map) -->
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel4">Under Construction</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="img/happyfingers2.jpg" width="555" alt="smiling face on fingers">
             This was my  project in this class. I learned a lot about HTML and CSS.
           </div>
           <div class="modal-footer">
