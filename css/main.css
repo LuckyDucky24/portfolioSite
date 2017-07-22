@@ -48,6 +48,10 @@ p {
 	margin-top: 40px;
 }
 
+.imgsize {
+    width: 300px;
+}
+
 /* Links */
 a {
     color: #f85c37;
