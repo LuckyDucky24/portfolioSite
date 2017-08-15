@@ -4,114 +4,164 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sean Nam's Website</title>
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery-3.1.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scriptfiles.js"></script>
-    <script src="https://use.fontawesome.com/4c9da93c6a.js"></script>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sean Nam</title>
+    <link rel="icon" type="image/png" href="img/icon2.png"/>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <link href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/chart.js"></script>
+
   </head>
-  <body class="container">
-    <header class="row first">
-      <div class="col-md-4">
-        <img src="img/logo-2.jpg" class="logo" alt="logo">
-      </div>
 
-      <div class="col-md-8">
-        <h1 class="name">Sean Nam</h1>
-        <p class="title">Future Great Programmer</p>
-      </div>
-    </header>
-    <div class="row">
-      <div class="col-lg-12">
-        <img src="img/buildingimage2.jpeg" class="img-responsive img-center mainimage" alt="modern building">
-        <a href='http://www.freepik.com/free-vector/responsive-web-design-flat-graphics_717976.htm'>Designed by Freepik</a>
-      </div>
-    </div>
+  <body>
 
-    <div class="row">
-        <div class="col-sm-12">
-            <hr class="firsthr">
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><i class="fa fa-rocket"></i></a>
         </div>
-    </div>
-
-    <main class="row">
-      <section class="col-md-6 sections">
-        <h3>Shopping Cart</h3>
-        <img src="img/shoppingcart4.png" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project1" alt="t-shirt website">
-        <p class="text-center"><a href="http://seannam7.github.io/shoppingCart/" target="_blank">Link to Project</a></p>
-        <p class="description text-left">A team project that taught me the importance of collaboration and communication.</p>
-      </section>
-
-      <section class="col-md-6 sections">
-        <h3>Trading Card</h3>
-        <img src="img/tradingcard3.png" width="555" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project2" alt="king julian trading card">
-        <p class="text-center"><a href="http://github.com">Link to project</a></p>
-        <p class="description text-left">This project was part of my Udacity degree. I added all the CSS and html to an empty card template and designed this card.</p>
-      </section>
-    </main>
-    <div class="row">
-      <section class="col-md-6 sections">
-        <h3>Classic Arcade Game Clone</h3>
-        <img src="img/lakeimage3.jpg" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project3" alt="lake in the mountains">
-        <p class="text-center"><a href="http://github.com">Link to project</a></p>
-        <p class="description text-left">Object Oriented Javascript.<br>
-                                HTML5 canvas<br>
-                                Writing readmes</p>
-      </section>
-
-      <section class="col-md-6 sections">
-        <h3>Neighborhood Map</h3>
-        <img src="img/happyfingers2.jpg" width="555" class="img-responsive img-center imgspace" data-toggle="modal" data-target="#project4" alt="three fingers with smiles drawn on them">
-        <p class="text-center"><a href="http://github.com">Link to project</a></p>
-        <p class="description text-left">AJAX (request APIs)<br>
-                               Javascript design patterns<br>
-                               Google Map APIs</p>
-      </section>
-    </div>
-    <div class="row">
-      <section class="col-md-12 skillssection">
-        <h3>Skills</h3>
-        <ul class="flex">
-          <li class="item">Javascript</li>
-          <li class="item">Grunt</li>
-          <li class="item">Grunt</li>
-          <li class="item">HTML</li>
-          <li class="item">CSS</li>
-          <li class="item">jQuery</li>
-          <li class="item">npm</li>
-          <li class="item">Bootstrap</li>
-        </ul>
-      </section>
-    </div>
-    <div class="row">
-      <div class="col-md-12 aboutmesection">
-        <h3>About Me</h3>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#contact">Menu</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
 
-    <div class="row">
-        <div class="col-sm-12">
-            <hr>
+
+  <div id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 centered">
+            <h1>Sean Nam</h1>
+            <h2>Junior Developer</h2>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div id="aboutme">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 centered">
+          <img src="img/iphone.png" alt="">
+        </div>
+
+        <div class="col-lg-7 centered">
+          <h3>WHAT CAN I DO?</h3>
+          <p>I love computers and programming. I started to build my own computers at a young age and after university I took programming courses. Currently I am taking a Front-End Web Development course from Udacity. What I can do is build responsive websites and program using JavaScript.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div id="works">
+      <div class="container">
+        <div class="row centered mt grid">
+          <h2>WORKS</h2>
+                <div class="col-lg-4">
+                    <h3>Neon</h3>
+                    <a href="#"><img src="img/neon300.png" class="imgsize img-responsive hvr-bob" alt="neon lights"  data-togglemodaldata-target="#project1"></a>
+                    <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h3>Shopping Cart</h3>
+                  <a href="#"><img src="img/1.375.jpg" class="imgsize img-responsive hvr-bob" alt="shopping cart" data-toggle="modal" data-target="#project2"></a>
+                    <p class="text-center"><a href="http://seannam7.github.io/shoppingCart/" target="_blank">Link to Project</a></p>
+              </div>
+
+                <div class="col-lg-4">
+                    <h3>MemeMaker</h3>
+                    <a href="#"><img src="img/mememaker300.png" class="imgsize img-responsive hvr-bob" alt="meme maker" data-togglemodaldata-target="#project3" ></a>
+                    <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
+                </div>
+            </div>
+
+            <div class="row centered mt grid">
+                <div class="col-lg-4">
+                    <h3>Trading Card</h3>
+                    <a href="#"><img src="img/2.375.jpg" class="imgsize img-responsive hvr-bob" alt="trading card" data-toggle="modal" data-target="#project4"></a>
+                    <p class="text-center"><a href="https://github.com/SeanNam7/animalTradingCard" target="_blank">Link to project</a></p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h3>Neighborhood Map</h3>
+                    <a href="#"><img src="img/4.jpg" class="imgsize img-responsive hvr-bob" alt="neighborhood map" data-toggle="modal" data-target="#project5"></a>
+                    <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h3>Classic Arcade Game Clone</h3>
+                    <a href="#"><img src="img/3.jpg" class="imgsize img-responsive hvr-bob" alt="classic arcade game" data-toggle="modal" data-target="#project6"></a>
+                    <p class="text-center"><a href="http://github.com" target="_blank">Link to project</a></p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <footer class="row">
-        <div class="col-sm-12 text-center center-block">
-              <a href="https://www.linkedin.com/home?trk=nav_responsive_tab_home" target="_blank"><i id="social-li" class="fa fa-linkedin-square fa-3x social"></i></a>
-              <a href="https://github.com/seannam7" target="_blank"><i id="social-gh" class="fa fa-github-square fa-3x social"></i></a>
-              <a href="https://plus.google.com/u/0/" target="_blank"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
-              <a href="mailto:seannam7@gmail.com" target="_blank"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
-        </div>
-    </footer>
-
-    <div class="row">
-        <div class="col-sm-12">
-            <hr>
-        </div>
+  <div id="skills">
+    <div class="container">
+      <div class="row centered">
+        <h3>SKILLS</h3>
+                <ul>
+                    <li><i class="devicon-html5-plain-wordmark"></i></li>
+                    <li><i class="devicon-css3-plain-wordmark"></i></li>
+                    <li><i class="devicon-javascript-plain"></i></li>
+                    <li><i class="devicon-jquery-plain-wordmark"></i></li>
+                    <li><i class="devicon-bootstrap-plain-wordmark"></i></li>
+                    <li><i class="devicon-github-plain-wordmark"></i></li>
+                    <li><i class="devicon-grunt-line-wordmark"></i></li>
+                    <li><i class="devicon-devicon-plain-wordmark"></i></li>
+                </ul>
+      </div>
     </div>
+  </div>
+
+  <div id="social">
+    <div class="container">
+      <div class="row centered">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="col-md-3">
+            <a href="https://github.com/seannam7" target="_blank"><i class="fa fa-github-square hvr-bob"></i></a>
+          </div>
+          <div class="col-md-3">
+            <a href="#"><i class="fa fa-google-plus-square hvr-bob"></i></a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://www.linkedin.com/home?trk=nav_responsive_tab_home" target="_blank"><i class="fa fa-linkedin-square hvr-bob"></i></a>
+          </div>
+          <div class="col-md-3">
+            <a href="mailto:seannam7@gmail.com" target="_blank"><i class="fa fa-envelope hvr-bob"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="f">
+    <div class="container">
+      <div class="row">
+        <p></p>
+      </div>
+    </div>
+  </div>
 
     <!-- Modal (Shopping Cart) -->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
@@ -182,5 +232,7 @@
         </div>
       </div>
     </div>
+
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>
