@@ -120,8 +120,8 @@ a:after {
 /* intro */
 #intro {
 	width: 100%;
-	padding-top: 180px;
-	padding-bottom: 250px;
+	padding-top: 200px;
+	padding-bottom: 270px;
 }
 
 #intro h1 {
@@ -215,7 +215,7 @@ a:after {
   transition: all 0.25s ease;
 }
 
-/* Social Links */
+/* social Links */
 #social {
   background-color: #E7E8ED;
 	width: 100%;
@@ -236,7 +236,7 @@ a:after {
 	padding:30px;
 }
 
-/* Footer */
+/* footer */
 #f {
 	padding-top: 20px;
 	background-color: #314152;
@@ -313,8 +313,19 @@ a:after {
   animation-direction: normal, alternate;
 }
 
+
+/*responsive*/
 @media (min-width: 480px) {
-    #skills li {
-        margin: 1.6rem;
-    }
+  #skills li {
+    margin: 1.6rem;
+  }
+}
+
+@media (max-width: 420px) {
+  #intro h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -1px black;
+  }
 }
