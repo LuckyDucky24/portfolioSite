@@ -11,11 +11,9 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: #555;
-
+    margin-top: 70px;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-
-    margin-top: 70px;
 }
 
 
@@ -49,7 +47,6 @@ p {
 a {
     color: #f85c37;
     word-wrap: break-word;
-
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -83,7 +80,6 @@ a:after {
     padding: 0;
 }
 
-
 .navbar {
 	font-weight: 800;
 	font-size: 14px;
@@ -104,7 +100,7 @@ a:after {
 }
 
 .navbar-brand i {
-    color: #f85c37;
+    color: #55bcc9;
 }
 
 .btn {
@@ -129,24 +125,22 @@ a:after {
 }
 
 #intro h1 {
-    font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive;
 	font-size: 90px;
 	font-weight: 700;
 	letter-spacing: 3px;
-	color: #55bcc9;
-    text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -1px black;
+	color: #e24e42; /*#e27d60*/
+  text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -1px black;
 }
 
 #intro h2 {
-    font-family: 'Lobster', cursive;
+  font-family: 'Lobster', cursive;
 	color: #c0c0c0;
 	font-weight: 400;
-    text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -1px black;
-
+  text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -1px black;
 }
 
 /* Works */
-
 #works {
     background-color: #eee;
     width: 100%;
@@ -176,7 +170,7 @@ a:after {
 	background-color: #4e4e4e;
 	padding-top: 50px;
 	padding-bottom: 50px;
-    text-align: center;
+  text-align: center;
 }
 
 #skills h3 {
@@ -188,24 +182,24 @@ a:after {
 }
 
 #skills li {
-    display: inline-block;
-    list-style: none;
-    margin: 1rem;
+  display: inline-block;
+  list-style: none;
+  margin: 1rem;
 }
 
 #skills i {
-    color: #2196F3;
-    font-size: 90px;
-    -webkit-transition: all 0.25s ease;
-    -moz-transition: all 0.25s ease;
-    -ms-transition: all 0.25s ease;
-    -o-transition: all 0.25s ease;
-    transition: all 0.25s ease;
+  color: #7FD3DF; /*#2196F3*/
+  font-size: 90px;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
 }
 
 /* Social Links */
 #social {
-    background-color: #E7E8ED;
+  background-color: #E7E8ED;
 	width: 100%;
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -235,15 +229,6 @@ a:after {
 	text-align: right;
 	font-weight: 400;
 }
-
-/* Image Opacity */
-/*.grid img {
-    opacity: .7;
-}
-.grid img:hover {
-    opacity: 1;
-}
-*/
 
 /* HVR effects (taken from IanLunn's Github) */
 @-webkit-keyframes hvr-bob {
