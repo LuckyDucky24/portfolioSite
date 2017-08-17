@@ -6,7 +6,8 @@ body {
     background-image: url("../img/bradburybuilding2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-position: center;
+    background-size: cover;
     font-family: "Arimo", sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -328,4 +329,10 @@ a:after {
     letter-spacing: 3px;
     text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -1px black;
   }
+}
+
+@media (max-width: 765px) {
+    body {
+      background-image: url("../img/bb2.jpg");
+    }
 }
