@@ -3,7 +3,7 @@
 
 
 body {
-    background-image: url("../img/bradburybuilding2.jpg");
+    background-image: url("../img/blur1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -165,6 +165,7 @@ a:after {
 /* aboutme */
 #aboutme {
 	background-color: #55bcc9;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 	padding-top: 50px;
 	margin-bottom: 0px;
 }
