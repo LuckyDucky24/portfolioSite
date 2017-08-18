@@ -164,6 +164,7 @@ a:after {
 
 /* aboutme */
 #aboutme {
+	background-image: url("../img/bedge-grunge.png");
 	background-color: #55bcc9;
 	padding-top: 50px;
 	margin-bottom: 0px;
