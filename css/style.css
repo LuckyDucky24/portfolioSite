@@ -165,8 +165,7 @@ a:after {
 /* aboutme */
 #aboutme {
 	background-color: #55bcc9;
-	background-image: url("../img/bedge-grunge.png");
-	background-size: cover;
+	background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 	padding-top: 50px;
 	margin-bottom: 0px;
 }
