@@ -6,7 +6,7 @@ body {
     background-image: url("../img/blur1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     font-family: "Arimo", sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -328,13 +328,11 @@ a:after {
     font-weight: 700;
     letter-spacing: 3px;
     text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -1px black;
-    background-attachment: fixed;
   }
 }
 
 @media (max-width: 765px) {
     body {
       background-image: url("../img/bbblur2.jpg");
-      background-attachment: fixed;
     }
 }
