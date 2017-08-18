@@ -3,7 +3,11 @@
 
 
 body {
+<<<<<<< HEAD
     background-image: url("../img/blur1.jpg");
+=======
+    background-image: url("../img/blur2.jpg");
+>>>>>>> ee9c5714b3ab5514cfef17278c47d44a7cd095e0
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -165,7 +169,11 @@ a:after {
 /* aboutme */
 #aboutme {
 	background-color: #55bcc9;
+<<<<<<< HEAD
   background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+=======
+	background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+>>>>>>> ee9c5714b3ab5514cfef17278c47d44a7cd095e0
 	padding-top: 50px;
 	margin-bottom: 0px;
 }
