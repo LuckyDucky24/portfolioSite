@@ -327,7 +327,7 @@ a:after {
   body {
     background-image: url("../img/iphonebbblur2.jpg");
     background-attachment: scroll;
-    background-size: auto;
+    background-size: auto 100%;
   }
   #intro h1 {
     font-size: 65px;
