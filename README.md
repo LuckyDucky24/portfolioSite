@@ -1,5 +1,5 @@
-# portfolioSite
+# My website
+This is my personal website to show my portfolio work.
 
-I am currently taking a front end course and learning to create my own personal website.
-
+## Feedback
 If you have any constructive criticism, please let me know! Thank you.
