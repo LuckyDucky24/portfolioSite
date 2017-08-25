@@ -6,8 +6,8 @@ body {
     background-image: url("../img/blur1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position:center;
-    background-size: cover;
+    background-position: center;
+    background-size: 100%;
     font-family: "Arimo", sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -326,6 +326,8 @@ a:after {
 @media (max-width: 420px) {
   body {
     background-image: url("../img/iphonebbblur2.jpg");
+    background-attachment: scroll;
+    background-size: auto;
   }
   #intro h1 {
     font-size: 65px;
