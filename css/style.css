@@ -327,11 +327,6 @@ a:after {
 }
 
 @media (max-width: 420px) {
-  body {
-/*    background-image: url("../img/iphonebbblur2.jpg");
-    background-attachment: scroll;
-    background-size: auto 100%;*/
-  }
   #intro h1 {
     font-size: 65px;
     font-weight: 700;
@@ -340,8 +335,3 @@ a:after {
   }
 }
 
-@media (max-width: 765px) {
-/*    body {
-      background-image: url("../img/bbblur2.jpg");
-    }*/
-}
