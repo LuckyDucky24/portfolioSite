@@ -3,11 +3,6 @@
 
 
 body {
-    background-image: url("../img/blur1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100%;
     font-family: "Arimo", sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -15,6 +10,14 @@ body {
     margin-top: 70px;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
+}
+
+#intro {
+    background-image: url("../img/blur1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
 
 
@@ -325,9 +328,9 @@ a:after {
 
 @media (max-width: 420px) {
   body {
-    background-image: url("../img/iphonebbblur2.jpg");
+/*    background-image: url("../img/iphonebbblur2.jpg");
     background-attachment: scroll;
-    background-size: auto 100%;
+    background-size: auto 100%;*/
   }
   #intro h1 {
     font-size: 65px;
@@ -338,7 +341,7 @@ a:after {
 }
 
 @media (max-width: 765px) {
-    body {
+/*    body {
       background-image: url("../img/bbblur2.jpg");
-    }
+    }*/
 }
