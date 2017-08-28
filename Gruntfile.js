@@ -15,12 +15,14 @@ module.exports = function(grunt) {
             tasks: ['jshint']
         },
         responsive_images: {
-            options: {
-                // Task-specific options go here
-            },
-            your_target: {
-                // Target-specific file lists and/or options go here.
-            },
+            dev: {
+                files: [{
+                    expand: true,
+                    src: ['myWebsite/img/**/*.{jpg,gif,png}'],
+                    cwd: 'src/',
+                    dest: 'dist/'
+                }]
+            }
         },
     })
 
