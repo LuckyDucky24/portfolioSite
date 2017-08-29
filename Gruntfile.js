@@ -16,17 +16,24 @@ module.exports = function(grunt) {
         },
         responsive_images: {
             dev: {
+                options: {
+                    sizes: [
+                        { name: 'small', width: 320 },
+                        { name: 'medium', width: 640 },
+                        { name: 'large', width: 1024 }
+                    ]
+                },
                 files: [{
                     expand: true,
-                    src: ['myWebsite/img/**/*.{jpg,gif,png}'],
-                    cwd: 'src/',
-                    dest: 'dist/'
+                    src: ['**/*.{jpg,jpeg,gif,png}'],
+                    cwd: 'img/',
+                    dest: 'img2/'
                 }]
             }
-        },
-    })
+        }
+    });
 
 
     // task setup
-    grunt.registerTask('default', []);
+    grunt.registerTask('default', ['responsive_images']);
 };
