@@ -7,19 +7,9 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: #555;
-    margin-top: 70px;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
-
-#intro {
-    background-image: url("../img/blur1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-}
-
 
 /* Titles */
 h2, h3, h4, h5, h6 {
@@ -84,29 +74,6 @@ a:after {
     padding: 0;
 }
 
-.navbar {
-	font-weight: 800;
-	font-size: 14px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #5d5c61;  /*#0b65b1*/
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #ffffff;
-	background-color: #55bcc9;
-}
-
-.navbar-brand {
-	font-size: 60px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-}
-
-.navbar-brand i {
-    color: #55bcc9;
-}
-
 .btn {
 	padding: 10px 30px;
 	margin-bottom: 0;
@@ -119,13 +86,49 @@ a:after {
 	letter-spacing: 1px;
 }
 
+.container {
+  max-width: 950px;
+}
+
 /* WRAP SECTIONS */
+
+/* navigation bar */
+.navigation a {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#header {
+  width: 100%;
+  max-width: 900px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#logo {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.right a:first-child {
+  margin-left: 0;
+}
+
+.right a {
+  margin-left: 20px;
+}
 
 /* intro */
 #intro {
 	width: 100%;
-	padding-top: 200px;
-	padding-bottom: 270px;
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+  background-image: url("../img/blur1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
 
 #intro h1 {
@@ -146,12 +149,16 @@ a:after {
 
 /* works */
 #works {
-    background-color: #eee;
-    width: 100%;
+  background-color: #eee;
+  width: 100%;
+}
+
+#works .container {
+    padding: 100px 25px;
 }
 
 #works h2 {
-  font-size: 2.25em;
+  font-size: 18px;
   margin: 0 0 20px 0;
   font-weight: bold;
 }
@@ -165,37 +172,19 @@ a:after {
   margin-top: 20px;
 }
 
-/* aboutme */
-#aboutme {
-	background-color: #55bcc9;
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-	padding-top: 50px;
-	margin-bottom: 0px;
-}
-
-#aboutme h3 {
-	color: white;
-	font-weight: 400;
-	margin-bottom: 35px;
-}
-
-#aboutme p {
-	color: white;
-	font-weight: 400;
-	font-size: 20px;
-}
-
 /* skills */
 #skills {
 	background-color: #4e4e4e;
-	padding-top: 50px;
-	padding-bottom: 50px;
   text-align: center;
 }
 
-#skills h3 {
+#skills .container {
+  padding-top: 50px;
+}
+
+#skills h2 {
 	color: white;
-  font-size: 2.25em;
+  font-size: 18px;
   margin: 0 0 20px 0;
   font-weight: bold;
 }
@@ -224,8 +213,6 @@ a:after {
 #social {
   background-color: #E7E8ED;
 	width: 100%;
-	padding-top: 80px;
-	padding-bottom: 80px;
 }
 
 #social i {
@@ -320,6 +307,23 @@ a:after {
 
 
 /*responsive*/
+@media screen and (max-width: 900px) {
+  #header {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 870px) {
+  .container {
+    padding: 50px 25px;
+  }
+}
+
+@media (max-width: 650px) {
+  #logo {
+    font-size: 20px;
+  }
+}
+
 @media (min-width: 480px) {
   #skills li {
     margin: 1.6rem;
@@ -332,6 +336,9 @@ a:after {
     font-weight: 700;
     letter-spacing: 3px;
     text-shadow: -1px 0 black, 0 2.5px black, 2.5px 0 black, 0 -1px black;
+  }
+  #logo {
+    font-size: 14px;
   }
 }
 

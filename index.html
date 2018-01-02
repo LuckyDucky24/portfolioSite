@@ -17,45 +17,28 @@
   </head>
 
   <body>
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><i class="fa fa-rocket"></i></a>
-        </div>
-        <!--<div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#contact">Menu</a></li>
-          </ul>
-        </div><!-/.nav-collapse -->
-      </div>
-    </div>
+
+ <!--      Navigation Bar Start       -->
+    <header id="header">
+        <nav class="navbar navigation">
+            <!--Sean Nam with hyperlink-->
+            <a id="logo" class="navbar-brand" href="#">SN</a>
+            <div class="right">
+                <!--Work-->
+                <a onclick="$(window).scrollTo($('#works'), 500, {offset: -50});">Work</a>
+                <!--About-->
+                <a>About</a>
+            </div>
+        </nav>
+    </header>
+ <!--      Navigation Bar Finish          -->
 
     <div id="intro">
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 centered">
+          <div class="col-lg-12 centered">
             <h1>Sean Nam</h1>
-            <h2>Junior Developer</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="aboutme">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 centered">
-            <img src="img/iphone.png" alt="">
-          </div>
-          <div class="col-lg-7 centered">
-            <h3>About Me</h3>
-          <p>I am a self-taught web developer and programmer. I have always had a great interest in computers, building my own computers at a young age. I can make   responsive websites, make simple applications, and collaborate with team members.
+            <h2>Web Developer</h2>
           </div>
         </div>
       </div>
@@ -63,40 +46,40 @@
 
     <div id="works">
       <div class="container">
-        <div class="row centered mt grid">
           <h2>WORKS</h2>
+        <div class="row centered mt">
           <div class="col-lg-4">
-            <h3>Neon</h3>
-            <a href=""><img src="img/neon300.png" class="imgsize img-responsive hvr-bob" alt="neon lights"  data-toggle="modal" data-target="#project1"></a>
-            <p><a href="https://seannam7.github.io/neon/" target="_blank">Link to project</a></p>
+            <h3>Neighborhood Map</h3>
+            <a><img src="img/nh-map.png" class="imgsize img-responsive hvr-bob" alt="neighborhood map" data-toggle="modal" data-target="#project6"></a>
+            <p><a href="https://seannam7.github.io/Neighborhood-Map/" target="_blank">Link to project</a></p>
           </div>
           <div class="col-lg-4">
-            <h3>Classic Arcade Game Clone</h3>
-            <a href="#"><img src="img/5.png" class="imgsize img-responsive hvr-bob" alt="classic arcade game" data-toggle="modal" data-target="#project2"></a>
+            <h3>Arcade Game Clone</h3>
+            <a><img src="img/5.png" class="imgsize img-responsive hvr-bob" alt="classic arcade game" data-toggle="modal" data-target="#project2"></a>
             <p><a href="https://seannam7.github.io/Arcade-Game/" target="_blank">Link to project</a></p>
           </div>
           <div class="col-lg-4">
-            <h3>MemeMaker</h3>
-            <a href="#"><img src="img/mememaker300.png" class="imgsize img-responsive hvr-bob" alt="meme maker" data-toggle="modal" data-target="#project3"></a>
-            <p><a href="https://seannam7.github.io/memeMaker/" target="_blank">Link to project</a></p>
+            <h3>Neon</h3>
+            <a><img src="img/neon300.png" class="imgsize img-responsive hvr-bob" alt="neon lights"  data-toggle="modal" data-target="#project1"></a>
+            <p><a href="https://seannam7.github.io/Neon/" target="_blank">Link to project</a></p>
           </div>
         </div>
 
-        <div class="row centered mt grid">
+        <div class="row centered mt">
           <div class="col-lg-4">
             <h3>Trading Card</h3>
-            <a href="#"><img src="img/2.jpg" class="imgsize img-responsive hvr-bob" alt="trading card" data-toggle="modal" data-target="#project4"></a>
-            <p><a href="https://seannam7.github.io/tradingCard/" target="_blank">Link to project</a></p>
+            <a><img src="img/2.jpg" class="imgsize img-responsive hvr-bob" alt="trading card" data-toggle="modal" data-target="#project4"></a>
+            <p><a href="https://seannam7.github.io/Trading-Card/" target="_blank">Link to project</a></p>
           </div>
           <div class="col-lg-4">
             <h3>Shopping Cart</h3>
-            <a href="#"><img src="img/1.jpg" class="imgsize img-responsive hvr-bob" alt="shopping cart" data-toggle="modal" data-target="#project5"></a>
-            <p><a href="http://seannam7.github.io/shoppingCart/index.html#" target="_blank">Link to Project</a></p>
+            <a><img src="img/1.jpg" class="imgsize img-responsive hvr-bob" alt="shopping cart" data-toggle="modal" data-target="#project5"></a>
+            <p><a href="http://seannam7.github.io/Shopping-Cart/" target="_blank">Link to Project</a></p>
           </div>
           <div class="col-lg-4">
-            <h3>Neighborhood Map</h3>
-            <a href="#"><img src="img/4.jpg" class="imgsize img-responsive hvr-bob" alt="neighborhood map" data-toggle="modal" data-target="#project6"></a>
-            <p><a href="http://github.com" target="_blank">Link to project</a></p>
+            <h3>MemeMaker</h3>
+            <a><img src="img/mememaker300.png" class="imgsize img-responsive hvr-bob" alt="meme maker" data-toggle="modal" data-target="#project3"></a>
+            <p><a href="https://seannam7.github.io/Meme-Maker/" target="_blank">Link to project</a></p>
           </div>
         </div>
       </div>
@@ -105,7 +88,7 @@
     <div id="skills">
       <div class="container">
         <div class="row centered">
-          <h3>SKILLS</h3>
+          <h2>SKILLS</h2>
           <ul>
             <li><i class="devicon-html5-plain-wordmark"></i></li>
             <li><i class="devicon-css3-plain-wordmark"></i></li>
@@ -123,7 +106,6 @@
     <div id="social">
       <div class="container">
         <div class="row centered">
-          <div class="col-lg-8 col-lg-offset-2">
             <div class="col-md-3">
               <a href="https://github.com/seannam7" target="_blank"><i class="fa fa-github-square hvr-bob"></i></a>
             </div>
@@ -136,15 +118,26 @@
             <div class="col-md-3">
               <a href="mailto:seannam7@gmail.com" target="_blank"><i class="fa fa-envelope hvr-bob"></i></a>
             </div>
-          </div>
         </div>
       </div>
     </div>
 
     <div id="f">
-      <div class="container">
-        <div class="row">
-          <p></p>
+    </div>
+
+    <!-- Modal (Neighborhood Map) -->
+    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel6">Neighborhood Map</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="img/nh-map.png" width="450" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </div>
@@ -157,7 +150,7 @@
             <h4 class="modal-title" id="myModalLabel1">Neon Hello World</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/neon750.png" width="800" alt="neon lights">
+            <img class="img-responsive" src="img/neon750.png" width="450" alt="neon lights">
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -174,7 +167,7 @@
             <h4 class="modal-title" id="myModalLabel2">Classic Arcade Game Clone</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/5.png" width="555" alt="">
+            <img class="img-responsive" src="img/5.png" width="450" alt="">
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -191,7 +184,7 @@
             <h4 class="modal-title" id="myModalLabel3">MemeMaker</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/mememaker300.png" alt="meme maker">
+            <img class="img-responsive" src="img/mememaker300.png" width="450" alt="meme maker">
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -208,7 +201,7 @@
             <h4 class="modal-title" id="myModalLabel4">King Julian Trading Card</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/2.jpg" width="555" alt="">
+            <img class="img-responsive" src="img/2.jpg" width="450" alt="">
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -225,7 +218,7 @@
             <h4 class="modal-title" id="myModalLabel5">Mock T-shirt Website</h4>
           </div>
           <div class="modal-body">
-            <img class="img-responsive" src="img/1.jpg" width="800" alt="shopping cart website">
+            <img class="img-responsive" src="img/1.jpg" width="450" alt="shopping cart website">
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -234,24 +227,12 @@
       </div>
     </div>
 
-    <!-- Modal (Neighborhood Map) -->
-    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel6">Under Construction</h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" src="img/4.jpg" width="555" alt="">
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
     <script src="js/chart.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.bootstrap-autohidingnavbar.js"></script>
   </body>
 </html>
