@@ -28,10 +28,6 @@ p {
     text-align: center;
 }
 
-.mt {
-	margin-top: 40px;
-}
-
 .imgsize {
     width: 300px;
     margin: 0 auto;
@@ -87,7 +83,7 @@ a:after {
 }
 
 .container {
-  max-width: 950px;
+  max-width: 1100px;
 }
 
 /* WRAP SECTIONS */
@@ -155,17 +151,23 @@ a:after {
 }
 
 #works .container {
-    padding: 100px 25px;
+    padding-top: 25px;
+}
+
+#works .container .col-lg-4 {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #works h2 {
-  font-size: 18px;
-  margin: 0 0 20px 0;
+  font-size: 2rem;
+  margin: 20px 0 30px 0;
   font-weight: bold;
+  text-align: center;
 }
 
 #works img {
-  border-radius: 25px; /*15px 50px*/
+/*  border-radius: 25px; */
   box-shadow: 7px 10px 5px #888888;
 }
 
@@ -173,41 +175,24 @@ a:after {
   margin-top: 20px;
 }
 
-/* skills */
-#skills {
-	background-color: #4e4e4e;
-  text-align: center;
+/* aboutme */
+#aboutme {
+	background-color: #eee;
+  text-align: left;
 }
 
-#skills .container {
+#aboutme .container {
   padding-top: 50px;
 }
 
-#skills h2 {
-	color: white;
-  font-size: 18px;
+#aboutme h2 {
+  font-size: 20px;
   margin: 0 0 20px 0;
   font-weight: bold;
 }
 
-#skills ul {
-	padding-left: 0;
-}
-
-#skills li {
-  display: inline-block;
-  list-style: none;
-  margin: 1rem;
-}
-
-#skills i {
-  color: #55aef6; /*#2196F3*/
-  font-size: 90px;
-  -webkit-transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -ms-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
-  transition: all 0.25s ease;
+#aboutme p {
+  font-size: 0.8rem;
 }
 
 /* social Links */
@@ -235,13 +220,7 @@ a:after {
 	background-color: #314152;
 }
 
-#f p {
-	color: white;
-	text-align: right;
-	font-weight: 400;
-}
-
-/* HVR effects (taken from IanLunn's Github) */
+/* HVR effects (from IanLunn's Github) */
 @-webkit-keyframes hvr-bob {
   0% {
     -webkit-transform: translateY(-8px);
@@ -308,6 +287,15 @@ a:after {
 
 
 /*responsive*/
+@media screen and (max-width: 992px) {
+  #aboutme .container {
+    max-width: 95%;
+  }
+  #aboutme .container img {
+    margin-bottom: 35px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   #header {
     margin: 0 auto;
